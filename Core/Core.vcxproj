@@ -21,13 +21,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -757,7 +757,7 @@
     <ClCompile Include="src\scene\component\enemy_cpp.cpp" />
     <ClCompile Include="src\scene\component\gui_component.cpp" />
     <ClCompile Include="src\scene\component\image.cpp" />
-    <ClCompile Include="src\scene\component\player_shoot_cpp.cpp"/>
+    <ClCompile Include="src\scene\component\player_shoot_cpp.cpp" />
     <ClCompile Include="src\scene\component\script_component.cpp" />
     <ClCompile Include="src\scene\component\skinned_mesh_renderer.cpp" />
     <ClCompile Include="src\scene\component\static_mesh_renderer.cpp" />
@@ -773,7 +773,7 @@
     <ClCompile Include="src\utils\guid.cpp" />
     <ClCompile Include="src\utils\logger.cpp" />
     <ClCompile Include="src\utils\message_box.cpp" />
-    <ClCompile Include="src\utils\plane.cpp"/>
+    <ClCompile Include="src\utils\plane.cpp" />
     <ClCompile Include="src\utils\utils.cpp" />
     <ClCompile Include="src\utils\windows.cpp" />
     <ClCompile Include="src\window.cpp" />

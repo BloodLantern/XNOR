@@ -44,7 +44,6 @@ void Camera::LookAt(const Vector3& at)
 	front = (at - position).Normalized();
 	right = Vector3::Cross(front,Vector3::UnitY()).Normalized();
 	up = Vector3::Cross(right ,front).Normalized();
-
 }
 
 void Camera::LookAt(const Vector3& at, const Vector3& upVector)

@@ -4,6 +4,7 @@
 #include "utils/list.hpp"
 
 #include <functional>
+#include <string>
 
 /// @file xnor_factory.hpp
 /// @brief Defines the XnorCore::XnorFactory class
